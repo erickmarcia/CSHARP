@@ -1,0 +1,129 @@
+﻿@page "/"
+
+@*Aqui Agregamos todo lo que tiene nuestro Body*@
+    <div class="contenido">
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#"><img class="logo" width="99" src="img/logo-trueke.svg"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="col-6">
+                    </div>
+                    <div class="col-6">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#iniciosesion">Más información</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="boton2 hvr-fade-sesion nav-link" href="#iniciosesion">Iniciar sesión</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="boton hvr-fade-pblcr nav-link" href="registrarse.html">Regístrate</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <div class="titulo">
+                <h1>
+                    Te damos la bienvenida a <strong style="color: #fff; background-color: #54c0b0;">trueke.cl</strong><br>
+                    <strong>tu portal de intercambio</strong>
+                </h1>
+            </div>
+        </section>
+        <section>
+            <div class="btn-scroll"><a class="hvr-hang" href="#iniciosesion"><img src="img/ico-arrow-down.svg"></a></div>
+            <div class="carousel">
+                <div class="carousel__contenedor">
+                    <div role="tablist" class="carousel__indicadores"></div>
+                    <div class="carousel__lista">
+                        <div class="carousel__elemento">
+                            <picture><img src="img/img1.webp" alt="Saxofón"></picture>
+                        </div>
+                        <div class="carousel__elemento">
+                            <picture><img src="img/img2.webp" alt="Dron"></picture>
+                        </div>
+                        <div class="carousel__elemento">
+                            <picture><img src="img/img3.webp" alt="Cámara Fotográfica"></picture>
+                        </div>
+                        <div class="carousel__elemento">
+                            <picture><img src="img/img4.webp" alt="Patines"></picture>
+                        </div>
+                        <div class="carousel__elemento">
+                            <picture><img src="img/img1.webp" alt="Saxofón"></picture>
+                        </div>
+                        <div class="carousel__elemento">
+                            <picture><img src="img/img2.webp" alt="Dron"></picture>
+                        </div>
+                        <div class="carousel__elemento">
+                            <picture><img src="img/img3.webp" alt="Cámara Fotográfica"></picture>
+                        </div>
+                        <div class="carousel__elemento">
+                            <picture><img src="img/img4.webp" alt="Patines"></picture>
+                        </div>
+                    </div>
+                    <button aria-label="Anterior" class="carousel__anterior">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button aria-label="Siguiente" class="carousel__siguiente">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="cont_info_trueke">
+                            <p>MÁS SOBRE TRUEKE.CL</p>
+                            <br>
+                            <img width="300" src="img/doodle.png">
+                            <br><br>
+                            <p><strong>ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</strong></p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="cont_iniciar_sesion">
+                            <div class="w-ancho">
+                                <picture><img style="padding: 10px 0px 0px 0px;" width="120" src="img/logo-trueke.svg"></picture>
+                                <h2 style="padding:30px 0px;">Inicia sesión y disfruta de los beneficios del trueque</h2>
+                                <form>
+                                    <input type="email" name="mail" placeholder="Correo electrónico"><br>
+                                    <br>
+                                    <input type="password" name="password" placeholder="Crea una contraseña"><br>
+                                    <br>
+                                    <button id="iniciosesion" class="btn-inicia-sesion" type="submit">Iniciar Sesión</button>
+                                </form>
+                                <br>
+                                <span style="color: #fff;">o inicia sesión con tus redes sociales:</span>
+                                <br><br>
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" width="230">
+                                    <tbody>
+                                        <tr>
+                                            <td><a href="#" target="_blank"><img class="rrssgris" src='img/ico-pinterest-grey_1.svg' onmouseover="this.src='img/ico-pinterest.svg';" onmouseout="this.src='img/ico-pinterest-grey_1.svg';" /></a></td>
+                                            <td><a href="#" target="_blank"><img class="rrssgris" src='img/ico-facebook_grey_1.svg' onmouseover="this.src='img/ico-facebook.svg';" onmouseout="this.src='img/ico-facebook_grey_1.svg';" /></a></td>
+                                            <td><a href="#" target="_blank"><img class="rrssgris" src='img/ico-twitter_grey_1.svg' onmouseover="this.src='img/ico-twitter.svg';" onmouseout="this.src='img/ico-twitter_grey_1.svg';" /></a></td>
+                                            <td><a href="#" target="_blank"><img class="rrssgris" src='img/ico-instagram_grey_1.svg' onmouseover="this.src='img/ico-instagram.svg';" onmouseout="this.src='img/ico-instagram_grey_1.svg';" /></a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="barra-footer-enlaces">
+                <a href="#">Condiciones del servicio</a> &nbsp;&nbsp;&nbsp;
+                <a href="#">Política de privacidad</a> &nbsp;&nbsp;&nbsp;
+                <a href="#">Ayuda</a> &nbsp;&nbsp;&nbsp;
+                <a href="#">App para iPhone</a> &nbsp;&nbsp;&nbsp;
+                <a href="#">App para Android</a> &nbsp;&nbsp;&nbsp;
+            </div>
+        </footer>
+    </div>
